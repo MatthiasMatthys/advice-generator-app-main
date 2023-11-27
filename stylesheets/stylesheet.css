@@ -1,33 +1,42 @@
-body{
+body {
     background-color: hsl(218, 23%, 16%);
     font-family: "Manrope", "sans-serif";
     font-weight: 800;
 }
-.container{
+
+.container {
     padding-top: 15%;
     max-width: 1200px;
     margin: auto;
 }
-.advicecontainer{
+
+.advicecontainer {
     background-color: hsl(217, 19%, 24%);
     width: 40%;
     height: 250px;
-    margin: auto;   
+    margin: auto;
     text-align: center;
     position: relative;
     border-radius: 8px;
+    padding: 20px;
 }
 
-h1{
+h1 {
     padding-top: 30px;
     color: hsl(150, 100%, 66%);
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 5px;
 }
-.dicebutton{
+
+p {
+    color: #D1E5EC;
+    font-size: 20px;
+}
+
+.dicebutton {
     margin: auto;
-    background-color:  hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%);
     width: 60px;
     height: 60px;
     display: flex;
@@ -38,4 +47,49 @@ h1{
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.dicebutton:hover {
+    background-color: hsl(150, 100%, 63%);
+    box-shadow: 0 0 50px 5px #39e050;
+    cursor: pointer;
+}
+
+.line-1 {
+    border-top: 1px solid  #9c9c9c;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.line-2 {
+    border-top: 1px solid  #9c9c9c;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+} 
+
+.linespacer{
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    color:  #D1E5EC;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+        display: block;
+        height: 75%;
+    }
+    .advicecontainer{
+        width: 80%;
+    }
+    
 }

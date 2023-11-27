@@ -7,23 +7,24 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:400,500,600,700">
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
+  <script src="scripts/script.js"></script>
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 <div class="container">
   <div class="advicecontainer">
-    <h1>ADVICE #<!-- Advice ID goes here --></h1>
+    <h1>ADVICE #<span id="slipId"></span><!-- Advice ID goes here --></h1>
 
-    "<!-- Advice text goes here -->"
-    <div class="dicebutton">
-      <img src="/images/icon-dice.svg" alt="dice">
+    <p id="sliptext"></p>
+    <div class="footer">
+      <div class="line-1 inline-block-child"></div>
+      <p class="linespacer">||</p>
+      <div class="line-2 inline-block-child"></div>
+    </div>
+    <div id="dicebutton" class="dicebutton">
+      <img src="/images/icon-dice.svg" alt="dice">      
     </div>
   </div>
 </div>

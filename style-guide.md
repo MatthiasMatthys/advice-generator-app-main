@@ -17,7 +17,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Grayish Blue: hsl(217, 19%, 24%) //textbox
 - Dark Blue: hsl(218, 23%, 16%)
 
 ## Typography
